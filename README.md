@@ -6,12 +6,19 @@
 </p>
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <div style="text-align: center;">
-    <h4>Tela de Login</h4>
-    <img src="" alt="Login" style="width: 50%;"/>
+    <h4>Tela de Login (Light)</h4>
+    <img src="https://github.com/user-attachments/assets/0ad8a215-1d9d-4333-857c-837fbfdd9e07" alt="LoginLight" style="width: 50%;"/>
   </div>
   <div style="text-align: center;">
-    <h4>Tela de Cadastro</h4>
-    <img src="" alt="Cadastro" style="width: 50%;"/>
+    <h4> Tela de Login (Dark)</h4>  
+  <img  src="https://github.com/user-attachments/assets/c5b1e30d-03dc-4063-9902-45063b041fc7" alt="LoginDark" style="width: 50%;"/>
+  <div style="text-align: center;">
+    <h4>Tela de Cadastro (Light)</h4>
+    <img src="https://github.com/user-attachments/assets/3fecff80-e4f0-4fc9-b96d-1e017080b15a" alt="CadastroLight" style="width: 50%;"/>
+  </div>
+  <div style="text-align:center;">
+    <h4>Tela de Cadastro (Dark)</h4>
+  <img src="https://github.com/user-attachments/assets/23e30c42-0809-40a7-ba4d-d3dcd8c9b8bc" alt="CadastroDark" style="width: 50%;"/>
   </div>
 </div>
 
