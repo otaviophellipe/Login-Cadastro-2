@@ -1,0 +1,113 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #000000;
+}
+.container {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 350px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #000000;
+    font-size: 14px;
+}
+input::placeholder {
+    color: #000000;
+}
+button {
+    padding: 12px;
+    background: #15b803;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.2s ease-in-out;
+}
+button:hover {
+    background: #119902;
+}
+.toggle-link {
+    text-align: center;
+    margin-top: 15px;
+}
+.toggle-link a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.toggle-link a:hover {
+    text-decoration: underline;
+}
+.hidden {
+    transform: scale(0.9);
+    opacity: 0;
+    pointer-events: none;
+}
+.dark-mode {
+    background: #121212;
+    color: #ffffff;
+}
+.dark-mode input {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+.dark-mode input::placeholder {
+    color: #cccccc;
+}
+.dark-mode button {
+    background: #15b803;
+    color: #ffffff;
+}
+.dark-mode button:hover {
+    background: #109001;
+}
+.dark-mode .toggle-link a {
+    color: #ffffff;
+}
+
+.social-buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.social-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.social-button img {
+    width: 32px;
+    height: 32px;
+    display: block;
+}
