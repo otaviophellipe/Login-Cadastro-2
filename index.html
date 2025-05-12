@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Cadastro</title>
+    <link rel="stylesheet" href="src/css/conta.css" />
+</head>
+<body>
+    <div class="container" id="loginContainer">
+        <button onclick="toggleDarkMode()" id="themeToggleButton" style="position: absolute; top: 10px; right: 10px; background: none; border: none; font-size: 24px; cursor: pointer;">🌙</button>
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Senha" required />
+            <button type="submit" onclick="window.location.href='../../index.html'; return false;">Entrar</button>
+        </form>
+        <div class="toggle-link">
+            <p>Não tem uma conta? <a href="#" onclick="toggleForm()" style="color: #15b803;">Cadastre-se</a></p>
+            <div style="text-align: center; margin-top: 20px;">
+                <p>Ou conecte-se com:</p>
+                <button onclick="redirectToGoogle()" style="background: #ffffff; border: none; border-radius: 8px; padding: 10px; margin: 5px; cursor: pointer; display: inline-flex; align-items: center;">
+                    <img src="https://pngteam.com/images/google_logo_fuzz_effect_9-506x509_b06a483c_transparent.png" alt="Google" style="width: 20px; height: 20px; margin-right: 8px;" />
+                    <span style="color: #000000;">Google</span>
+                </button>
+                <button onclick="redirectToFacebook()" style="background: #3b5998; border: none; border-radius: 8px; padding: 10px; margin: 5px; cursor: pointer; color: #ffffff; display: inline-flex; align-items: center;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Facebook" style="width: 20px; height: 20px; margin-right: 8px;" />
+                    Facebook
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="display: none;">
+        <button onclick="toggleDarkMode()" id="themeToggleButtonRegister" style="position: absolute; top: 10px; right: 10px; background: none; border: none; font-size: 24px; cursor: pointer;">🌙</button>
+        <h2>Cadastro</h2>
+        <form id="registerForm">
+            <input type="text" placeholder="Nome Completo" required />
+            <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Senha" required />
+            <input type="password" placeholder="Confirme sua Senha" required />
+            <input type="tel" placeholder="Telefone (opcional)" />
+            <button type="submit">Cadastrar</button>
+        </form>
+        <div class="toggle-link">
+            <p>Já tem uma conta? <a href="#" onclick="toggleForm()" style="color: #15b803;">Faça login</a></p>
+            <p>Ou conecte-se com:</p>
+            <button onclick="redirectToGoogle()" style="background: #ffffff; border: none; border-radius: 8px; padding: 10px; margin: 5px; cursor: pointer; display: inline-flex; align-items: center;">
+                <img src="https://pngteam.com/images/google_logo_fuzz_effect_9-506x509_b06a483c_transparent.png" alt="Google" style="width: 20px; height: 20px; margin-right: 8px;" />
+                <span style="color: #000000;">Google</span>
+            </button>
+            <button onclick="redirectToFacebook()" style="background: #3b5998; border: none; border-radius: 8px; padding: 10px; margin: 5px; cursor: pointer; color: #ffffff; display: inline-flex; align-items: center;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Facebook" style="width: 20px; height: 20px; margin-right: 8px;" />
+                Facebook
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function redirectToGoogle() {
+            window.location.href = "https://accounts.google.com/signin";
+        }
+        function redirectToFacebook() {
+            window.location.href = "https://www.facebook.com/login.php";
+        }
+    </script>
+    <script src="src/js/conta.js"></script>
+
+</body>
+</html>
