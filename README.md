@@ -20,6 +20,14 @@
     <h4>Tela de Cadastro (Dark)</h4>
   <img src="https://github.com/user-attachments/assets/23e30c42-0809-40a7-ba4d-d3dcd8c9b8bc" alt="CadastroDark" style="width: 50%;"/>
   </div>
+  <div style="text-align:center;">
+    <h4>Tela de Gerenciamento de Perfil do Usuário (Light)</h4>
+<img src="https://github.com/user-attachments/assets/d8c4f015-5e91-4bbd-aeb2-c77120f3fcf8" alt="GerenciamentoPerfilLight" style="width: 50%;"/>
+</div>
+  <div style="text-align:center;">
+    <h4>  Tela de Gerenciamento de Perfil do Usuário (Dark)</h4>
+  <img src="https://github.com/user-attachments/assets/0c45d8a0-74e7-42c6-a21c-ee3fb9fe09cf" alt="GerenciamentoPerfilDark" style="width: 50%;"/>
+  </div>
 </div>
 
 ## ℹ️ Descrição
@@ -37,7 +45,7 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 
 - **CSS**: Para estilização e design dos elementos das páginas.
 - **HTML**: Complemento ``index.html``
-- **JavaScript**: Para alteração do tema da página.
+- **JavaScript**: Para alteração do tema da página e alterações no perfil do usuário.
 
 ## 🆕 Atualizações
 
