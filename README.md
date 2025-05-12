@@ -24,11 +24,11 @@
 
 ## ℹ️ Descrição
 
-Página de login/cadastro intuitiva, integrada com as principais redes sociais como Google e Facebook, garantindo facilidade e agilidade na autenticação dos usuários. O projeto também apresenta um tema escuro, proporcionando uma experiência visual agradável e confortável.
+Página de login/cadastro intuitiva, integrada com as principais redes sociais como Google e Facebook e edição de perfil do usuário, garantindo facilidade e agilidade na autenticação dos usuários. O projeto também apresenta um tema escuro, proporcionando uma experiência visual agradável e confortável.
 
 ## 🔎 Funcionalidades
 
-- **Funções simples**: Login e Cadastro na página, ou login por meio de plataformas integradas (Google e Facebook)
+- **Funções simples**: Login e Cadastro na página, ou login por meio de plataformas integradas (Google e Facebook) e Gerenciamento de Perfil do Usuário
 - **Tema**: Escolha do usuário (Dark ou Light) por meio de um botão.
 
 ## 🌐 Tecnologias Utilizadas
