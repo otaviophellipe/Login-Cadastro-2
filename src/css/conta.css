@@ -32,7 +32,7 @@ input {
     padding: 12px;
     border: none;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.2);
+    background: #ffffff33;
     color: #000000;
     font-size: 14px;
 }
@@ -90,24 +90,4 @@ button:hover {
 }
 .dark-mode .toggle-link a {
     color: #ffffff;
-}
-
-.social-buttons-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    gap: 20px;
-}
-
-.social-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-}
-
-.social-button img {
-    width: 32px;
-    height: 32px;
-    display: block;
 }
